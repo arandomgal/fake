@@ -1,0 +1,11 @@
+server:
+  port: 8090
+
+springdoc:
+  swagger-ui:
+    path: /swagger
+    default-models-expand-depth: -1
+
+logging:
+  file:
+    name: logs/myapp.log
